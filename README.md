@@ -85,7 +85,7 @@ server {
 ![Alt text](/Images/ui04.png)
 
 ## Чиним ошибку в curl 
-Проблема связана с тем что в Ubuntu как оказалось индексная страница называется index.nginx-debian.html. Подправленный конфиг nginx-а  
+Проблема связана с тем что в Ubuntu, как оказалось, индексная страница называется index.nginx-debian.html. Подправленный конфиг nginx-а  
 ```
 server {
         listen 443 ssl;
